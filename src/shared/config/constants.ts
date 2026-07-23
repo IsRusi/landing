@@ -1,0 +1,5 @@
+export const PHONE = '+37525...'
+export const PHONE_DISPLAY = '+375 (25) 123-45-67'
+export const WHATSAPP = 'https://wa.me/79991234567'
+export const TELEGRAM = 'https://t.me/gruzchik_krd'
+export const CITY = 'Гомель'

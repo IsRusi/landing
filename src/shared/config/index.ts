@@ -1,0 +1,14 @@
+export { BrickIcon } from './icons/BrickIcon';
+export { CarIcon } from './icons/CarIcon';
+export { CheckIcon } from './icons/CheckIcon';
+export { ClockIcon } from './icons/ClockIcon';
+export { PhoneIcon } from './icons/PhoneIcon';
+export { RubleIcon } from './icons/RubleIcon';
+export { ShieldIcon } from './icons/ShieldIcon';
+export { SofaIcon } from './icons/SofaIcon';
+export { StarIcon } from './icons/StarIcon';
+export { TelegramIcon } from './icons/TelegramIcon';
+export { TrashIcon } from './icons/TrashIcon';
+export { TruckIcon } from './icons/TruckIcon';
+export { UserIcon } from './icons/UserIcon';
+export { WhatsAppIcon } from './icons/WhatsAppIcon';

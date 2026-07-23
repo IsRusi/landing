@@ -1,0 +1,9 @@
+export { Header } from './header/Header';
+export { Hero } from './hero/Hero';
+export { Services } from './services/Services';
+export { WhyMe } from './why-me/WhyMe';
+export { HowItWorks } from './how-it-works/HowItWorks';
+export { Fleet } from './fleet/Fleet';
+export { Reviews } from './reviews/Reviews';
+export { Coverage } from './coverage/Coverage';
+export { Footer } from './footer/Footer';

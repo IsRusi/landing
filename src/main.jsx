@@ -1,17 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { HomePage } from '@/pages/home/HomePage'
 import './index.css'
-import App from './App.jsx'
-import { BrowserRouter } from 'react-router-dom'
-import '@fontsource/montserrat';
-import '@fontsource/montserrat/500.css';
-import '@fontsource/montserrat/700.css';
 
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-  <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </StrictMode>,
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <HomePage />
+  </React.StrictMode>
 )
