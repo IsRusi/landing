@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource/montserrat": "^5.2.8",
     "@tailwindcss/vite": "^4.3.3",
+    "embla-carousel-react": "^8.6.0",
     "lint": "^1.2.2",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",

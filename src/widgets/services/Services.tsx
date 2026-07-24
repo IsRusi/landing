@@ -12,7 +12,7 @@ export function Services() {
             className="text-3xl md:text-4xl font-black text-[#111827] mt-2"
             style={{ fontFamily: 'var(--font-heading)' }}
           >
-            Грузоперевозки по {CITY}у<br className="hidden md:block" /> и Краснодарскому краю
+            Грузоперевозки по {CITY}<br className="hidden md:block" />
           </h2>
         </div>
 

@@ -25,7 +25,7 @@ export function Hero() {
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 bg-[#F97316]/15 border border-[#F97316]/35 rounded-full px-4 py-1.5 mb-7">
             <div className="w-2 h-2 rounded-full bg-[#F97316]" style={{ animation: 'pulse 2s infinite' }} />
-            <span className="text-[#F97316] text-sm font-semibold">Работаю сам — без диспетчеров и наценок</span>
+            <span className="text-[#F97316] text-sm font-semibold">Работаю сам - без диспетчеров и наценок</span>
           </div>
 
           <h1
@@ -64,7 +64,7 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap gap-x-6 gap-y-2.5 text-gray-300 text-sm">
-            {['Выезд от 1 часа', 'Свой транспорт', '5 лет в Краснодаре', 'Оплата после работы'].map(t => (
+            {['Выезд от 1 часа', 'Свой транспорт', '7 лет в Гомеле', 'Оплата после работы'].map(t => (
               <span key={t} className="flex items-center gap-2">
                 <CheckIcon />
                 {t}

@@ -22,7 +22,7 @@ export function Header() {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
         <div className="flex flex-col leading-tight min-w-0">
           <span className="text-white font-black text-base md:text-lg truncate" style={{ fontFamily: 'var(--font-heading)' }}>
-            ИП Александр Петров
+            Возит Саша
           </span>
           <span className="text-[#F97316] text-xs font-medium hidden md:block whitespace-nowrap">
             Вывоз мусора и грузоперевозки · {CITY}

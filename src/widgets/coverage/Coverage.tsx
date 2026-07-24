@@ -11,10 +11,10 @@ export function Coverage() {
           className="text-3xl md:text-4xl font-black text-white mt-2 mb-4"
           style={{ fontFamily: 'var(--font-heading)' }}
         >
-          Работаю по {CITY}у<br />и Краснодарскому краю
+          Работаю по областям Беларуси<br />
         </h2>
         <p className="text-gray-400 text-lg mb-10 max-w-lg mx-auto">
-          Выезжаю в любой район города, а также в соседние города и населённые пункты края.
+          Выезжаю в любой район города, а также в соседние города и населённые пункты.
         </p>
 
         <div className="flex flex-wrap justify-center gap-2.5 mb-10">

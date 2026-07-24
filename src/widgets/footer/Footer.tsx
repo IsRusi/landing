@@ -1,6 +1,7 @@
 import { PhoneIcon, WhatsAppIcon, TelegramIcon } from '@/shared/config'
 import { PHONE, PHONE_DISPLAY, WHATSAPP, TELEGRAM, CITY } from '@/shared/config/constants'
 import { RequestForm } from '@/features/send-request/RequestForm'
+import { data } from 'react-router-dom'
 
 export function Footer() {
   return (
@@ -54,7 +55,7 @@ export function Footer() {
                   <div>
                     <div className="text-xs text-gray-600 mb-0.5">Telegram</div>
                     <div className="font-semibold text-gray-200 group-hover:text-[#229ED9] transition-colors">
-                      @gruzchik_krd
+                      @test
                     </div>
                   </div>
                 </a>
@@ -64,8 +65,8 @@ export function Footer() {
                 <div>
                   Режим работы: <span className="text-gray-400">ежедневно, 7:00 – 22:00</span>
                 </div>
-                <div>ИП Петров Александр Сергеевич</div>
-                <div>ОГРНИП: 321234567890001</div>
+                <div>ИП Чеботарёв Александр </div>
+                <div>ОГРНИП: 00000000000000</div>
               </div>
             </div>
 
@@ -85,7 +86,7 @@ export function Footer() {
           </div>
 
           <div className="border-t border-white/8 mt-14 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-gray-700 text-xs">
-            <span>© 2024 ИП Петров Александр Сергеевич. Все права защищены.</span>
+            <span>© {new Date().getFullYear()} ИП Петров Александр Сергеевич. Все права защищены.</span>
             <span>Грузоперевозки и вывоз мусора в {CITY}</span>
           </div>
         </div>

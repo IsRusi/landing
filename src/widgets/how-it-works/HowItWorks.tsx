@@ -48,7 +48,7 @@ export function HowItWorks() {
             style={{ fontFamily: 'var(--font-heading)' }}
           >
             <PhoneIcon size={22} />
-            Начать — позвонить сейчас
+            Начать - позвонить сейчас
           </a>
         </div>
       </div>

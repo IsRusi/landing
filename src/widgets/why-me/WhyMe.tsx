@@ -50,9 +50,9 @@ export function WhyMe() {
                 className="text-4xl font-black leading-none mb-1"
                 style={{ fontFamily: 'var(--font-heading)' }}
               >
-                5 лет
+                7 лет
               </div>
-              <div className="text-sm font-medium opacity-90">работы в Краснодаре</div>
+              <div className="text-sm font-medium opacity-90">работы в Гомеле</div>
             </div>
             <div className="absolute -top-5 -right-5 hidden md:block w-24 h-24 rounded-2xl border-4 border-[#F97316]/20" />
           </div>
