@@ -1,5 +1,7 @@
-export const PHONE = '+37525...'
-export const PHONE_DISPLAY = '+375 (25) 123-45-67'
-export const WHATSAPP = 'https://wa.me/79991234567'
-export const TELEGRAM = 'https://t.me/gruzchik_krd'
-export const CITY = 'Гомель'
+export const PHONE = '+375296362175'
+export const PHONE_DISPLAY = '+375 (29) 636-21-75'
+export const WHATSAPP = 'https://wa.me/375296362175'
+export const TELEGRAM = 'https://t.me/'
+export const CITY = ['Гомель', 'Гомелю','Гомеле'];
+export const OWNER_NAME = 'ИП Чеботарёв Александр Николаевич'
+export const IP_NUMBER = '490242087'

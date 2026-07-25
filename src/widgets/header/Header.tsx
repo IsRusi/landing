@@ -25,7 +25,7 @@ export function Header() {
             Возит Саша
           </span>
           <span className="text-[#F97316] text-xs font-medium hidden md:block whitespace-nowrap">
-            Вывоз мусора и грузоперевозки · {CITY}
+            Вывоз мусора и грузоперевозки · {CITY[0]}
           </span>
         </div>
 
