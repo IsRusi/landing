@@ -34,7 +34,7 @@ export function Hero() {
           >
             Вывоз мусора<br />
             и грузоперевозки<br />
-            <span className="text-[#F97316]">в {CITY}</span>
+            <span className="text-[#F97316]">в {CITY[2]}</span>
           </h1>
 
           <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-9 max-w-xl">
@@ -64,7 +64,7 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap gap-x-6 gap-y-2.5 text-gray-300 text-sm">
-            {['Выезд от 1 часа', 'Свой транспорт', '7 лет в Гомеле', 'Оплата после работы'].map(t => (
+            {['Выезд от 1 часа', 'Свой транспорт', `7 лет в ${CITY[2]}`, 'Оплата после работы'].map(t => (
               <span key={t} className="flex items-center gap-2">
                 <CheckIcon />
                 {t}

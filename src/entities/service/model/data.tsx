@@ -1,5 +1,9 @@
 import { TrashIcon, SofaIcon, BrickIcon, TruckIcon, CarIcon, UserIcon, ClockIcon, RubleIcon, ShieldIcon } from '@/shared/config';
-import { type ServiceItem } from '../model/types'
+import { type ServiceItem } from '../model/types';
+import carImg from '@/assets/car.png';
+import carSideImg from '@/assets/car-side.jpg';
+import carInteriorImg from '@/assets/car-interior.jpg';
+
 
 export const SERVICES: ServiceItem[] = [
   {
@@ -45,7 +49,7 @@ export const STEPS = [
 export const REVIEWS = [
   {
     name: 'Ольга Н.',
-    date: 'Март 2024',
+    date: 'Март 2025',
     text: 'Заказывала вывоз строительного мусора после ремонта. Александр приехал в оговорённое время, сделал всё быстро и аккуратно. Цена - как и договорились по телефону. Очень рекомендую!',
   },
   {
@@ -55,7 +59,7 @@ export const REVIEWS = [
   },
   {
     name: 'Максим В.',
-    date: 'Апрель 2024',
+    date: 'Апрель 2025',
     text: 'Возил стройматериалы на дачу несколько раз. Всегда приезжает вовремя, цены адекватные, человек ответственный. Теперь только к нему обращаюсь.',
   },
   {
@@ -65,12 +69,12 @@ export const REVIEWS = [
   },
   {
     name: 'Сергей К.',
-    date: 'Май 2024',
+    date: 'Май 2026',
     text: 'Перевозил тяжелые строительные материалы на объект. Машина чистая, приехал вовремя, помог всё разместить. Цены честные, никаких неожиданных доплат по факту.',
   },
   {
     name: 'Анна М.',
-    date: 'Июнь 2024',
+    date: 'Июнь 2023',
     text: 'Отличный сервис! Переезжали в загородный дом, боялись за хрупкие вещи и зеркала. Александр всё закрепил надежно, довезли в идеальном состоянии.',
   },
   {
@@ -80,7 +84,7 @@ export const REVIEWS = [
   },
   {
     name: 'Татьяна В.',
-    date: 'Август 2024',
+    date: 'Август 2021',
     text: 'Очищали участок и квартиру от старого хлама после покупки вторички. Мусора было очень много, но Александр справился на ура. Быстро, вежливо и профессионально.',
   },
 ]
@@ -89,19 +93,19 @@ export const CITIES = ['Минск', 'Гомель', 'Могилев', 'Вите
 
 export const FLEET = [
   {
-    url: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=700&h=500&fit=crop&auto=format',
-    alt: 'Грузовик ГАЗель Next в работе',
-    label: 'ГАЗель Next',
+    url: carImg,
+    alt: 'Грузовик Mercedes-Benz Sprinter в работе',
+    label: 'Mercedes-Benz Sprinter',
     spec: 'Грузоподъёмность 1.5 т',
   },
   {
-    url: 'https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=700&h=500&fit=crop&auto=format',
+    url: carSideImg,
     alt: 'Погрузка мебели в грузовик',
     label: 'Удобная погрузка',
-    spec: 'Кузов 4.2 × 2.0 × 1.8 м',
+    spec: 'Кузов 3.26 × 1.78 × 1.85 м',
   },
   {
-    url: 'https://images.unsplash.com/photo-1601467995997-ac1ae9a8fff4?w=700&h=500&fit=crop&auto=format',
+    url: carInteriorImg,
     alt: 'Чистый грузовой автомобиль',
     label: 'Всегда чистый кузов',
     spec: 'Тент, борта, стяжки',
