@@ -87,15 +87,6 @@ export function Footer() {
                   </div>
                 </a>
               </div>
-
-              <div className="text-sm text-gray-600 space-y-1">
-                <div>
-                  Режим работы:{" "}
-                  <span className="text-gray-400">ежедневно, 7:00 – 22:00</span>
-                </div>
-                <div>{OWNER_NAME}</div>
-                <div>УНП {IP_NUMBER}</div>
-              </div>
             </div>
 
             <div>
@@ -104,18 +95,34 @@ export function Footer() {
                   className="text-[#F97316] text-xs font-bold uppercase tracking-[0.2em]"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
-                  Информация
+                  Юридическая информация
                 </span>
               </div>
-              <span className="text-sm text-gray-600 space-y-1">Нужна машина прямо сейчас?<br></br> Перевезу груз или вывезу строительный мусор быстро, аккуратно и по честной цене. Наберите меня лично.</span>
-              {/* <h2
-                className="text-2xl md:text-3xl font-black mb-7"
-                style={{ fontFamily: 'var(--font-heading)' }}
-              >
-                Оставить заявку
-              </h2> */}
 
-              {/* <RequestForm /> */}
+              <div className="text-sm text-gray-600 space-y-1">
+                <div className="text-gray-400">{OWNER_NAME}</div>
+                <div className="text-gray-400">УНП {IP_NUMBER}</div>
+                <div>
+                  <span className="text-gray-400">
+                    Юр. Адрес: 246029, г. Гомель, ул.Григория Денисенко,
+                    86,кв.112
+                  </span>
+                </div>
+                <div>
+                  <span className="text-gray-400">
+                    Свидетельство №0600042 от 13.06.2016
+                  </span>
+                </div>
+                <div>
+                  <span className="text-gray-400">
+                    Контактная почта: <strong>vozitsasha@gmail.com</strong>
+                  </span>
+                </div>
+                <div className="text-gray-400">
+                  Режим работы:{" "}
+                  <span className="text-gray-500">ежедневно, 7:00 – 22:00</span>
+                </div>
+              </div>
             </div>
           </div>
 
