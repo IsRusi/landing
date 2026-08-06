@@ -64,7 +64,7 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap gap-x-6 gap-y-2.5 text-gray-300 text-sm">
-            {['Выезд от 1 часа', 'Свой транспорт', `7 лет в ${CITY[2]}`, 'Оплата после работы'].map(t => (
+            {['Выезд от 1 часа', 'Свой транспорт', `10 лет в ${CITY[2]}`, 'Оплата после работы'].map(t => (
               <span key={t} className="flex items-center gap-2">
                 <CheckIcon />
                 {t}
