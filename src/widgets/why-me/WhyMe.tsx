@@ -50,7 +50,7 @@ export function WhyMe() {
                 className="text-4xl font-black leading-none mb-1"
                 style={{ fontFamily: 'var(--font-heading)' }}
               >
-                7 лет
+                10 лет
               </div>
               <div className="text-sm font-medium opacity-90">работы в Гомеле</div>
             </div>
