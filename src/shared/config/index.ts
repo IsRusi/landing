@@ -12,3 +12,4 @@ export { TrashIcon } from './icons/TrashIcon';
 export { TruckIcon } from './icons/TruckIcon';
 export { UserIcon } from './icons/UserIcon';
 export { WhatsAppIcon } from './icons/WhatsAppIcon';
+export { ContactCardIcon } from './icons/ContactCardIcon';
