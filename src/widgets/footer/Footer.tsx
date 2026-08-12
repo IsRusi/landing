@@ -7,7 +7,9 @@ import {
   CITY,
   OWNER_NAME,
   IP_NUMBER,
+  DATE,
 } from "@/shared/config/constants";
+import { ContactCardIcon } from "@/shared/config/icons/ContactCardIcon";
 
 export function Footer() {
   return (
@@ -19,7 +21,7 @@ export function Footer() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
             <div>
-              <div className="mb-2">
+              <div className="mb-2" id='contacts'>
                 <span
                   className="text-[#F97316] text-xs font-bold uppercase tracking-[0.2em]"
                   style={{ fontFamily: "var(--font-heading)" }}
@@ -128,45 +130,32 @@ export function Footer() {
 
           <div className="border-t border-white/8 mt-14 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-gray-700 text-xs">
             <span>
-              © {new Date().getFullYear()} {OWNER_NAME}. Все права защищены.
+              © {DATE} {OWNER_NAME}. Все права защищены.
             </span>
-            <span>Грузоперевозки и вывоз мусора в {CITY[2]}</span>
           </div>
         </div>
       </footer>
 
       <div
-        className="md:hidden fixed bottom-0 left-0 right-0 z-50 flex"
+        className="md:hidden fixed bottom-0 right-0 z-50 w-14 h-14 m-4 flex rounded-full"
         style={{ boxShadow: "0 -4px 20px rgba(0,0,0,0.25)" }}
       >
         <a
-          href={`tel:${PHONE}`}
-          className="flex-1 flex items-center justify-center gap-2.5 bg-[#F97316] text-white font-black py-4 text-base transition-colors active:bg-[#EA580C]"
+          href={'#contacts'}
+          className="flex-1 rounded-4xl flex items-center justify-center gap-2.5 bg-[#F97316] text-white font-black py-4 text-base transition-colors active:bg-[#EA580C]"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          <PhoneIcon size={20} />
-          Позвонить
-        </a>
-        <div className="w-px bg-white/20" />
-        <a
-          href={WHATSAPP}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex-1 flex items-center justify-center gap-2.5 bg-[#111827] text-white font-black py-4 text-base transition-colors active:bg-[#1F2937]"
-          style={{ fontFamily: "var(--font-heading)" }}
-        >
-          <WhatsAppIcon size={20} />
-          Написать
+          <ContactCardIcon size={30} />
         </a>
       </div>
 
       <a
-        href={`tel:${PHONE}`}
+        href={'#contacts'}
         className="hidden md:flex fixed bottom-6 right-6 z-50 items-center gap-2.5 bg-[#F97316] hover:bg-[#EA580C] text-white font-black px-5 py-3.5 rounded-full shadow-2xl shadow-orange-900/40 transition-all duration-200 hover:scale-105 active:scale-95"
         style={{ fontFamily: "var(--font-heading)" }}
       >
-        <PhoneIcon size={18} />
-        Позвонить
+        <ContactCardIcon size={18} />
+        Контакты
       </a>
     </>
   );
