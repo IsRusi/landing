@@ -30,6 +30,17 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-3 flex-shrink-0">
+          <div
+            className="flex flex-col gap-0.5 text-[0.75em]"
+            style={{ fontFamily: 'var(--font-heading)' }}
+          >
+            <div>
+              <span className="text-gray-300">ежедневно</span>
+            </div>
+            <div>
+              <span className="text-gray-300 text-[0.95em]">7:00 – 22:00</span>
+            </div>
+          </div>
           <a
             href={`tel:${PHONE}`}
             className="hidden md:flex items-center gap-2 text-gray-300 hover:text-white font-semibold text-sm transition-colors"
@@ -39,7 +50,7 @@ export function Header() {
           </a>
           <a
             href={`tel:${PHONE}`}
-            className="flex items-center gap-2 bg-[#F97316] hover:bg-[#EA580C] text-white font-bold px-4 py-2 rounded-lg text-sm transition-all duration-200 active:scale-95"
+            className="sm:hidden flex items-center gap-2 bg-[#F97316] hover:bg-[#EA580C] text-white font-bold px-4 py-2 rounded-lg text-sm transition-all duration-200 active:scale-95"
             style={{ fontFamily: 'var(--font-heading)' }}
           >
             <PhoneIcon size={16} />
