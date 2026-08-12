@@ -1,5 +1,5 @@
 import { PhoneIcon } from '@/shared/config'
-import { PHONE, CITY } from '@/shared/config/constants'
+import { PHONE } from '@/shared/config/constants'
 import { CITIES } from '@/entities/service/model/data'
 
 export function Coverage() {
