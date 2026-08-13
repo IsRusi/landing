@@ -1,13 +1,13 @@
-import { PhoneIcon, WhatsAppIcon, TelegramIcon } from "@/shared/config";
+import { PhoneIcon, TelegramIcon } from "@/shared/config";
 import {
   PHONE,
   PHONE_DISPLAY,
-  WHATSAPP,
   TELEGRAM,
   CITY,
   OWNER_NAME,
   IP_NUMBER,
   DATE,
+  TELEGRAM_NAME,
 } from "@/shared/config/constants";
 import { ContactCardIcon } from "@/shared/config/icons/ContactCardIcon";
 
@@ -21,7 +21,7 @@ export function Footer() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
             <div>
-              <div className="mb-2" id='contacts'>
+              <div className="mb-2" id="contacts">
                 <span
                   className="text-[#F97316] text-xs font-bold uppercase tracking-[0.2em]"
                   style={{ fontFamily: "var(--font-heading)" }}
@@ -54,24 +54,6 @@ export function Footer() {
                     </div>
                   </div>
                 </a>
-
-                <a
-                  href={WHATSAPP}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 group"
-                >
-                  <div className="w-11 h-11 rounded-xl bg-[#25D366]/15 flex items-center justify-center text-[#25D366] flex-shrink-0 group-hover:bg-[#25D366]/25 transition-colors">
-                    <WhatsAppIcon />
-                  </div>
-                  <div>
-                    <div className="text-xs text-gray-600 mb-0.5">WhatsApp</div>
-                    <div className="font-semibold text-gray-200 group-hover:text-[#25D366] transition-colors">
-                      {PHONE_DISPLAY}
-                    </div>
-                  </div>
-                </a>
-
                 <a
                   href={TELEGRAM}
                   target="_blank"
@@ -84,7 +66,7 @@ export function Footer() {
                   <div>
                     <div className="text-xs text-gray-600 mb-0.5">Telegram</div>
                     <div className="font-semibold text-gray-200 group-hover:text-[#229ED9] transition-colors">
-                      @test
+                      @{`${TELEGRAM_NAME}`}
                     </div>
                   </div>
                 </a>
@@ -141,7 +123,7 @@ export function Footer() {
         style={{ boxShadow: "0 -4px 20px rgba(0,0,0,0.25)" }}
       >
         <a
-          href={'#contacts'}
+          href={"#contacts"}
           className="flex-1 rounded-4xl flex items-center justify-center gap-2.5 bg-[#F97316] text-white font-black py-4 text-base transition-colors active:bg-[#EA580C]"
           style={{ fontFamily: "var(--font-heading)" }}
         >
@@ -150,7 +132,7 @@ export function Footer() {
       </div>
 
       <a
-        href={'#contacts'}
+        href={"#contacts"}
         className="hidden md:flex fixed bottom-6 right-6 z-50 items-center gap-2.5 bg-[#F97316] hover:bg-[#EA580C] text-white font-black px-5 py-3.5 rounded-full shadow-2xl shadow-orange-900/40 transition-all duration-200 hover:scale-105 active:scale-95"
         style={{ fontFamily: "var(--font-heading)" }}
       >

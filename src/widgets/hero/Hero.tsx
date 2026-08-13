@@ -1,5 +1,5 @@
-import { PhoneIcon, WhatsAppIcon, CheckIcon } from "@/shared/config";
-import { PHONE, WHATSAPP, CITY } from "@/shared/config/constants";
+import { PhoneIcon, CheckIcon, TelegramIcon } from "@/shared/config";
+import { PHONE, CITY, TELEGRAM } from "@/shared/config/constants";
 import carImg from "@/assets/car.png";
 
 export function Hero() {
@@ -65,14 +65,14 @@ export function Hero() {
               Заказать звонок
             </a>
             <a
-              href={WHATSAPP}
+              href={TELEGRAM}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-white/10 hover:bg-white/18 border border-white/25 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all duration-200 backdrop-blur-sm"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              <WhatsAppIcon size={22} />
-              Написать в WhatsApp
+              <TelegramIcon size={22} />
+              Написать в Telegram
             </a>
           </div>
 
